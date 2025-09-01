@@ -1,0 +1,6 @@
+13/08/25
+
+npm install mongoose
+npm start
+
+Para praticar: 

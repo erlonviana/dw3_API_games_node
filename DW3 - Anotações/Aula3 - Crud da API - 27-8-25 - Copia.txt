@@ -1,0 +1,21 @@
+Insominia
+Mongoose - Biblioteca que permite se conectar ao MongoDB
+
+Arquitetura MVC + camada service
+
+Services - métodos para manipular o banco
+Models - criar a entidade e coleção no banco de dados (só muda a biblioteca Mongoose ou Sequelize)
+Controllers - tratar requisições e dá respostas com código de status e .json
+Routes - gerenciar rotas, tem os endpoints
+
+*Abrir mongoDB e Insomnia
+
+Criar as pastas (services, controllers e routes)
+	
+Services é uma camada que tem os métodos para criar o CRUD (conectar ao banco). Ex: createGame, deleteGame. Métodos de manipulação do banco. É uma camada intermediaria entre os models e o controllers.
+
+localhost:4000/games	
+
+Vai no mongodb.
+
+shift + alt + f = corrigir formatação

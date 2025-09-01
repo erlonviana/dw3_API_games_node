@@ -1,0 +1,26 @@
+Criando API
+
+Extensões:
+node.js exec
+prettier
+icons
+Es7 + react/redux snippets
+Beatiful Dracula
+
+json:
+type: module
+start: npx nodemon app.js
+
+no terminal
+npm install express
+npm install nodemon
+npm start
+
+Ver dados em app.js
+
+Criar conta em insomnia (cliente igual o postman, faz o papel de "cliente" com a API "garçon"
+Criar projeto no insominia
+Local>create
+New collection
+Http request
+Get>localhost:4000
