@@ -14,7 +14,7 @@ gameRoutes.post("/games", gameController.createGame) //a rota /games é a mesma 
 gameRoutes.delete("/games/:id", gameController.deleteGame)
 
 //ENDPOINT para alterar
-gameRoutes.put("/games/:id", gameController.updateGame)
+gameRoutes.put("/games/:id", gameController.updateGame) //#########
 
 //Endpoint para listar um unico jogo
 gameRoutes.get("/games/:id", gameController.getOneGame) //parametro não-obrigatório ficaria assim: id?

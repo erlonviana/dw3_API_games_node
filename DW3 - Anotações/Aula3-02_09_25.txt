@@ -1,0 +1,8 @@
+O fluxo é:
+-Service
+-Controlers
+-Router
+
+Dica:
+.status(...).json //manda o json
+sendStatus(...) //Não manda json

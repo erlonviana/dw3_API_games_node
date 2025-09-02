@@ -17,15 +17,14 @@ class gameService {
   }
 
   // Cadastrando registros no banco
-  async Create(title, year, genre, platform, price) {
+  async Create(title, year, price, descriptions) {
     try {
       const newGame = new Game({
         // criando uma instância de game para inserir esse objeto no BD
         title, // não precisa digitar title: title, etc
         year,
-        genre,
-        platform,
         price,
+        descriptions,
       });
       await newGame.save();
     } catch (error) {
@@ -44,7 +43,7 @@ class gameService {
   }
 
   // Alterando registros no banco
-  async Update(id, title, year, genre, platform, price) {
+  async Update(id, title, year, price, descriptions) { // <-- corrigido
     try {
       const game = await Game.findByIdAndUpdate(
         id,
@@ -52,9 +51,8 @@ class gameService {
           // game é uma variável que recebe a alteração
           title,
           year,
-          genre,
-          platform,
           price,
+          descriptions,
         },
         { new: true } // após alterar, vai gerar um registro atualizado
       );
