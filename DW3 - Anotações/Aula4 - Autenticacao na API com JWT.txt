@@ -1,0 +1,15 @@
+Fazendo uma API fechada que utiliza autenticação para acessar os dados
+
+Autenticação JWT - Json Web Token
+
+Usuário e senha via requisição Post
+A API verifica que o usuário e senha conferem com o banco de dados
+O ideal é que a senha esteja criptografada (HASH) *Não veremos isso ainda
+Se os dados conferirem, a API retorna ao usuário um token que permite ele acessas os dados
+
+A cada nova requisição o usuário precisa enviar o token
+
+Token é enviado via Json
+
+Instalar: npm install jsonwebtoken
+
