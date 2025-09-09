@@ -1,0 +1,16 @@
+OS - Autenticação com JSON web token
+
+1) Cliente <req.post(email, senha), API gera um toquen e retorna para o cliente> API
+2) Agora todas as requisições que o cliente manda para a API precisa ter o token no
+cabeçalho da requisição:
+
+Cliente <envia o cabeçalho, API permite o consumo> API
+
+Agora vamos trabalhar com req.header (cabeçalho da requisição)
+
+Se o cliente mandar uma requisição e ele não estiver autorizado podem aparecer alguns codigos:
+403 - Não permitido
+
+Middleware: é a base para trabalhar com sistemas desacoplados (front e backend separados). Ele fica no meio do caminho da requisição: o cliente manda uma requisição e o servidor/API/backend manda uma resposta (tem acesso ao objeto req e ao res). O middleware entra no meio do caminho (como um porteiro) e verifica as requisições e respostas. Ele vai verificar se o cliente está portando os tokens (credenciais) nas requisições. Ele é uma função que é chamada pelo servidor para verificar se o token existe. No nosso caso nosso middleware será o Auth.js que vai verificar se o token existe.
+Agora entra tambem o Next(). Ele controla o proximo passo e é chamado quando o token é valido.
+
