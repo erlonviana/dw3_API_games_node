@@ -3,4 +3,26 @@ No Insomnia o token vai na guia Auth para autenticar com a API
 Swagger - cria a documentação de forma interativa
 Ou diretamente no reader do GitHub
 
+Agora o token será exigido em todas as rotas
+
+Documentação da API
+Depois que finaliza a API precisa criar a documentação (listagem das rotas, métodos (POST, GET, DELETE etc)).
+Começar com a descrição da API (utilizada para gerenciar catalogo de jogos etc)
+descrever os Endpoints
+
+.yaml é a linguagem utilizada pelo Swagger
+na rota /docs ele vai abrir a documentação dentro do projeto
+
+/maxxdiego
+
+Trabalho em grupo:
+Desenvolver uma API rest mongoDB com tema de sua escolha
+CRUD básico
+Banco hospedado no mongoDB Atlas com no minimo um aninhamento de documento 
+Documentação com linguagem markdown (github) ou Swagger
+Prototipo do figma
+
+Slides tambem podem ser criados
+
+
 
