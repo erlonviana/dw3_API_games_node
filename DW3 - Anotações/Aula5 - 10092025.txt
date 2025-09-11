@@ -1,0 +1,6 @@
+No Insomnia o token vai na guia Auth para autenticar com a API
+
+Swagger - cria a documentação de forma interativa
+Ou diretamente no reader do GitHub
+
+
