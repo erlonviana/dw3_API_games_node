@@ -1,0 +1,4 @@
+Hash de senha
+Variáveis de ambiente
+
+
