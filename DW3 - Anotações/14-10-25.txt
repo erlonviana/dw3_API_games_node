@@ -1,0 +1,32 @@
+Consumo da biblioteca axios (Javascript)
+É uma popular biblioteca HTTP
+permite solicitações de forma assíncrona
+No nosso projeto, vai substituir o Insomnia (enviar as requisições HTTP pelo navegador para a API)
+O Axios é mais completo e customizável Função nativa JS Fetch 
+Simplicidade, facilidade de uso, promise
+
+
+Quando mandar uma requisição, importar o AXIOS como objeto e depois chamar:
+Axios.get
+Axios.post
+Axios.put.
+Axios.delete
+
+Vai enviar para a url da API ("http://localhost:4000/games")
+
+Precisa informar em qual estado ele vai gravar as respostas das requisições:
+games = 
+
+Para percorrer as listas podemos utilizar o método map:
+games.map() -> método map vai percorrer a lista recebida
+
+no front: npm install axios
+
+CORS - roda dentro do navegador
+
+npm install cors //dentro da API backend
+app.use(cors(dentro dos parênteses informa o que ele vai permitir));
+
+
+
+ 

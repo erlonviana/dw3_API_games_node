@@ -1,4 +1,12 @@
-Hash de senha
-Variáveis de ambiente
+Hash de senha: 
 
 
+Instalar a biblioteca bcrypt: npm install bcrypt
+
+A criptografia faz o hash da senha (é mais seguro que o Base64 do PHP). Só o algoritmo pode quebrar o hash.
+
+Variáveis de ambiente:
+npm install dotenv 
+
+variáveis de ambiente é um arquivo .env na raiz do projeto
+Dentro deste arquivo são definidas as variáveis de ambiente
